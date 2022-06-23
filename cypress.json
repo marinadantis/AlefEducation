@@ -1,0 +1,19 @@
+{
+    "defaultCommandTimeout": 8000,
+    "failOnStatusCode": false,
+    "ignoreTestFiles": [
+        "*.js",
+        "*.md"
+    ],
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "http://localhost:8080/",
+    "video": false,
+    "retries": 0,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "overwrite": true,
+        "html": true,
+        "json": true
+    }
+}
